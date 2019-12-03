@@ -54,7 +54,7 @@
 * Now we can change our tasks to accept args=None and **kwargs. To completely remove specifying args=None, we may use [Celery-Signals][2]
  
 
-[1]: taskrunner/tasks/baseTask.py#10-13
+[1]: taskrunner/tasks/baseTask.py#L10-13
 [2]: https://docs.celeryproject.org/en/latest/userguide/signals.html
 
 
