@@ -11,7 +11,7 @@ from taskrunner.celery import app
 # Workflow tasklist definition
 RunTC01Workflow = [div, mul, add, sub]
 RunTC02Workflow = [div, mul]
-RunTC03Workflow = [div, sub]
+RunTC03Workflow = [add, sub]
 
 # Testcase name to workflow mapping
 TESTCASE_WORKFLOWS = {
